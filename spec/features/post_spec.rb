@@ -36,7 +36,7 @@ describe 'navigate' do
       post2 = FactoryGirl.build_stubbed(:second_post)
 
       other_user = User.create(
-        first_name: 'Other', last_name: 'User', email: "other@test.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+        first_name: 'Other', last_name: 'User', email: "other@test.com", password: "asdfasdf", password_confirmation: "asdfasdf", phone: "5555555555")
 
       post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldnt be seen", user_id: other_user.id)
 
