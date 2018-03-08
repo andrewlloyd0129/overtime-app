@@ -67,3 +67,4 @@ gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.7'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari.git'
+gem 'rails_12factor'
